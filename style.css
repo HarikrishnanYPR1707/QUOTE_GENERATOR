@@ -1,3 +1,43 @@
 body {
-	background-color : black;
+	background-color: #181D31;
 }
+
+.btn {
+	background-color: #678983;
+	color: #F0E9D2;
+	border: 2px solid;
+	border-color: #E6DDC4;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.container {
+/*	border: 1px solid white;*/
+	width: 95%;
+	height: 100vh;
+	display: flex;
+}
+
+.btn-container {
+	text-align: center;
+}
+
+.quotes {
+	color: #F0E9D2;
+	border: 1px solid white;
+	width: 900px;
+	height: 450px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 50px;
+	background-color: #678983;
+	border: 10px solid #F0E9D2;
+}
+
+.quotes p, .quotes h3 {
+	font-size: 1.5rem;
+}
+
